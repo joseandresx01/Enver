@@ -1,0 +1,533 @@
+.head {
+    display: flex;
+    align-items: center;
+}
+
+.barra ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.container-fluid {
+    background-color: rgba(25, 25, 27, 1);
+    color: white;
+}
+
+.list ul {
+    list-style: none;
+}
+
+.botonmenu {
+    display: flex;
+}
+
+.botonmenu h6 {
+    width: fit-content;
+    border: 1px solid white;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.esp {
+    display: block;
+}
+
+.fondoefecto {
+    position: absolute;
+    top: 0%;
+}
+
+/* .seccion1 {
+    background: linear-gradient(180deg, rgba(84, 84, 212, 0.27) 0%, rgba(84, 84, 212, 0.1134) 100%);
+} */
+.barra .fondoefecto {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+
+.centro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.ourservices {
+    background-color: rgba(84, 84, 212, 1);
+    border-radius: 2px;
+    padding: 8px;
+    width: fit-content;
+}
+
+
+.seccion3 {
+    position: relative;
+}
+
+.seccion3 .triangulo {
+    position: absolute;
+    top: 0%;
+    left: 15%;
+}
+
+.seccion3 .triangulo2 {
+    position: absolute;
+    top: 3%;
+    left: 15%;
+}
+
+.seccion3 .cruz {
+    position: absolute;
+    right: 11%;
+    top: 0%;
+}
+
+.seccion3 .fondoefecto2 {
+    position: absolute;
+    left: 0%;
+    top: -60%;
+}
+
+.seccion3 .fondoefecto3 {
+    position: absolute;
+    right: 0%;
+    top: -140%;
+}
+
+.seccion3 .cuadros1 {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.seccion3 .cuadros2 {
+    text-align: center;
+    margin-top: 150px;
+}
+
+.ache1 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.seccion2foto {
+    margin-bottom: 100px;
+}
+
+
+
+.seccion4 {
+    position: relative;
+    margin-bottom: 200px;
+
+}
+
+.seccion4 .cruzz {
+    position: absolute;
+    top: -7%;
+    left: 10%;
+}
+
+.seccion4 .circulo1 {
+    position: absolute;
+    top: 0%;
+    right: 5%;
+}
+
+.seccion4 .circulo2 {
+    position: absolute;
+    top: 1%;
+    right: 4%;
+}
+
+.seccion4 .raya {
+    position: absolute;
+    bottom: 0%;
+    left: 10%;
+}
+
+.seccion4 .fondoefecto4 {
+    position: absolute;
+    top: -80%;
+    right: 0%;
+}
+
+.seccion4 .cuadros {
+    display: flex;
+}
+
+.cuadro1 {
+    padding: 10px;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 10px;
+    background-color: rgba(30, 30, 32, 1);
+}
+
+.cuadro2 {
+    padding: 10px;
+    width: fit-content;
+    height: fit-content;
+    margin-top: 50px;
+    border-radius: 10px;
+    background-color: rgba(30, 30, 32, 1);
+}
+
+.cuadro3 {
+    padding: 10px;
+    width: fit-content;
+    height: fit-content;
+    margin-top: 100px;
+    border-radius: 10px;
+    background-color: rgba(30, 30, 32, 1);
+}
+
+.mover {
+    display: none;
+    justify-content: center;
+    margin-top: 60px;
+    gap: 20px;
+}
+
+.derecha {
+    background-color: rgb(84, 84, 212);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.izquierda {
+    background-color: rgb(71, 71, 73);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.flechas {
+    display: flex;
+    justify-content: center;
+    margin-top: 8px;
+}
+
+.seccion5 {
+    position: relative;
+    padding: 200px;
+    border-radius: 10px;
+    background-color: rgba(30, 30, 32, 0.5);
+}
+
+.seccion5 .cruz2 {
+    position: absolute;
+    top: 0%;
+    right: 15%;
+
+}
+
+.seccion5 .circulo3 {
+    position: absolute;
+    bottom: 20%;
+    left: 22%;
+}
+
+.seccion5 .circulo4 {
+    position: absolute;
+    bottom: 17%;
+    left: 23%;
+}
+
+.seccion5 .lado {
+    display: flex;
+    justify-content: space-around;
+}
+
+.botonseccion5 {
+    background-color: rgba(84, 84, 212, 1);
+    border-radius: 2px;
+    padding: 15px;
+    width: fit-content;
+}
+
+.seccion6 {
+    margin-top: 50px;
+}
+
+.seccion6 ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.final {
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width:480px) {
+
+    .fondoefecto{
+        display: none;
+    }
+
+    .fondoefecto2{
+        display: none;
+    }
+
+    .esp {
+        display: none;
+    }
+
+    .seccion1 .centro {
+        margin-top: 50px;
+    }
+
+    .seccion3 h1{
+        white-space: nowrap; 
+        font-size: 23px;   
+        padding-top: 10px;
+    }
+
+    .seccion3 .triangulo {
+        top: -6%;
+        left: 1%;
+    }
+
+    .seccion3 .triangulo2 {
+        top: -5%;
+        left: 1%;
+    }
+
+    .seccion3 .cruz {
+        top: 4%;
+        right: 45%;
+        transform: rotate(30deg);
+    }
+
+    .seccion3 .cuadros2 {
+        margin-top: 0%;
+    }
+
+    .seccion4 .cruzz {
+        top: -18%;
+        left: 0%;
+        transform: rotate(30deg);
+    }
+
+    .seccion4 .circulo1 {
+        top: 8%;
+        right: 5%;
+    }
+
+    .seccion4 .circulo2 {
+        top: 12%;
+        right: -1%;
+    }
+
+    .seccion4 .raya {
+        bottom: -17%;
+        left: 0%;
+    }
+
+    .seccion4 .cuadro1 {
+        padding: 0px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .mover {
+        display: block;
+        display: flex;
+    }
+
+    .seccion5 .lado {
+        display: block;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .seccion5 {
+        padding: 0%;
+    }
+
+    .seccion5 .cruz2 {
+        top: 0%;
+        right: 0%;
+        transform: rotate(30deg);
+    }
+
+    .seccion5 .circulo3 {
+        bottom: 12%;
+        left: 0%;
+    }
+
+    .seccion5 .circulo4 {
+        bottom: 6%;
+        left: 5%;
+    }
+
+    .seccion6 {
+        margin-top: 100px;
+    }
+
+    .seccion6 .uno {
+        display: flex;
+        justify-content: center;
+    }
+
+    .seccion6 .dos {
+        display: flex;
+        justify-content: center;
+    }
+
+    .seccion6 .lista {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .seccion6 .tres {
+        display: contents;
+    }
+
+    .seccion6 .acheseis {
+        margin-left: 70px;
+    }
+
+
+
+}
+
+@media(min-width:481px) and (max-width: 767px) {
+
+    .fondoefecto{
+        display: none;
+    }
+
+    .fondoefecto2{
+        display: none;
+    }
+
+    .esp {
+        display: none;
+    }
+
+    .seccion1 .centro {
+        margin-top: 50px;
+    }
+
+    .seccion3 h1{
+        white-space: nowrap; 
+        font-size: 29px;   
+        padding-top: 10px;
+    }
+
+    .seccion3 .triangulo {
+        top: -6%;
+        left: 1%;
+    }
+
+    .seccion3 .triangulo2 {
+        top: -5%;
+        left: 1%;
+    }
+
+    .seccion3 .cruz {
+        top: 4%;
+        right: 45%;
+        transform: rotate(30deg);
+    }
+
+    .seccion3 .cuadros2 {
+        margin-top: 0%;
+    }
+
+    .seccion4 .cruzz {
+        top: -18%;
+        left: 0%;
+        transform: rotate(30deg);
+    }
+
+    .seccion4 .circulo1 {
+        top: 8%;
+        right: 5%;
+    }
+
+    .seccion4 .circulo2 {
+        top: 12%;
+        right: -1%;
+    }
+
+    .seccion4 .raya {
+        bottom: -17%;
+        left: 0%;
+    }
+
+    .seccion4 .cuadro1 {
+        padding: 0px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .mover {
+        display: block;
+        display: flex;
+    }
+
+    .seccion5 .lado {
+        display: block;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .seccion5 {
+        padding: 0%;
+    }
+
+    .seccion5 .cruz2 {
+        top: 0%;
+        right: 0%;
+        transform: rotate(30deg);
+    }
+
+    .seccion5 .circulo3 {
+        bottom: 12%;
+        left: 0%;
+    }
+
+    .seccion5 .circulo4 {
+        bottom: 6%;
+        left: 5%;
+    }
+
+    .seccion6 {
+        margin-top: 100px;
+        white-space: nowrap;
+    }
+
+    .seccion6 .uno {
+        display: flex;
+        justify-content: center;
+    }
+
+    .seccion6 .dos {
+        display: flex;
+        justify-content: center;
+    }
+
+    .seccion6 .lista {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .seccion6 .tres {
+        display: contents;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .seccion6 .acheseis {
+        margin-left: 15px;
+    }
+
+}
